@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f9a7db0114f5489b9f793be567796e9, type: 3}
+  m_Name: DarkTheme
+  m_EditorClassIdentifier: 
+  wallPrefab: {fileID: 2297009154302016302, guid: 494a2f96003eb4da39c89375a7de0a6b,
+    type: 3}
+  keepInsideWalls: 1
+  windowPrefabs:
+  - {fileID: 7468460664939623896, guid: 377013674207146a8b114875ca42bef3, type: 3}
+  - {fileID: 555001713503201163, guid: 90a2e3ecbd7a54017ab0123a7674372e, type: 3}
+  randomizeWindowSelection: 1
+  windowPercentChance: 0.271
+  roofPrefabs: []
+  randomizeRoofSelection: 0
+  includeRoof: 0
+  cornerPrefab: {fileID: 0}
+  allowCornerWalls: 1
+  doorPrefab: {fileID: 7165127039772983386, guid: b9db251dab23c40138b1c335c0ebd413,
+    type: 3}
+  doorPercentChance: 0.414
+  rows: 1
+  columns: 1
+  randomizeRows: 0
+  randomizeColumns: 0
+  cellUnitSize: 1
+  numberOfFloors: 2
